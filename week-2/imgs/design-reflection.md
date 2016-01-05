@@ -1,4 +1,4 @@
-![alt text](taylordaug/phase-0/week-2/imgs/site-map.png)
+![alt text](/Users/taylordaugherty/Documents/devbootcamp/phase-0/week-2/imgs/site-map.png)
 
 ###What are the 6 Phases of Web Design?
 1. Information gathering: What are your goals with this website? What is the purpose of making this? What content would your target audience be looking for?
