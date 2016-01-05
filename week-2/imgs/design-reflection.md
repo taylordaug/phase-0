@@ -1,4 +1,5 @@
-![Alt text](phase-0/week-2/imgs/site-map.png)
+![alt text](../site-map.png)
+
 ###What are the 6 Phases of Web Design?
 1. Information gathering: What are your goals with this website? What is the purpose of making this? What content would your target audience be looking for?
 2. Planning: Make your site map. This will be a list of all main topic areas of the site as well as sub-topics. Remember, these topics must be in line with the goals and purpose you've identified when gathering information! Here, put thought into how users will navigate through these topic areas: what is most important for them to see? Plan to make the most crucial parts highly visible.
