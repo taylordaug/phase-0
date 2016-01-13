@@ -1,5 +1,5 @@
-<img src="/imgs/3.4-exercise-1.png">
-<img src="/imgs/3.4-exercise-2.png">
+<img src="imgs/3.4-exercise-1.png"/>
+<img src="imgs/3.4-exercise-2.png">
 <img src="/imgs/3.4-exercise-3.png">
 <img src="/imgs/3.4-exercise-4.png">
 <img src="/imgs/3.4-exercise-5.png">
