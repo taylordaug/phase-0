@@ -1,0 +1,81 @@
+body {
+ color:#000080;
+}
+
+a:link {
+  color:#800080;
+}
+
+a:visited {
+  color:#ff0000;
+}
+
+html {
+  background-color:#ffffff;
+}
+
+header {
+  font-weight: bold;
+  font-size:1em;
+  text-align: center;
+  display: block;
+  line-height: 25%;
+  margin-top: 1.5em;
+}
+
+span {
+  font-size: 0.5em;
+  line-height: 0em;
+}
+
+header span {
+  font-size:2em;
+}
+
+.hline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: 1em 0;
+    margin-bottom: 1em;
+    padding: 0em;
+    }
+
+.smaller {
+  font-size:0.75em;
+}
+
+div {
+  display: block;
+  text-align: center;
+  line-height: 25%;
+}
+
+table {
+  line-height: 400%;
+  padding: 0em;
+  margin-top: 0em;
+  margin-left: 4em;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: relative;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+Make sure you navigate to the appropriate directory and down to the correct folder when linking the actual file using href. Use the relative path to navigate like "../../directory/folder/file-name.css". There are three links that need to be present: type="text/css" rel="stylesheet" href="filename.css".
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+Positioning the elements was quite difficult. We experimented a lot with trying to format our links into columns using CSS using float or column-count, but nothing worked. We decided it was much easier and more intuitive to add an html table instead.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I used font-size, color, font-weight, display:block; text-align:center. I used "em" to specific font-size to help make my website more responsive.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+I used classes to modify HTML elements. I did this because IDs are more unique and each element can only have one ID. Classes are not unique, that is you can use the same class on multiple elements and use multiple classes on the same element. This gives you more options!
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I think our code was cleaner and followed best practices better. In the header, the code base used the <b> element which is usually reserved for text that is stylistically different from normal text. There is no information that tells this is the header of the document and distinguishes it from the body. They also style the html with height, align,and width attributes, which should be done in CSS. I see font sizes entered in-line as well. A lot of the formatting for the table is done in-line in html. Formatting these elements in CSS is better practice because if changes need to be made, you don't have to go into each style element in the html, you just need to change it in one place in your CSS stylesheet.
+
+*/
