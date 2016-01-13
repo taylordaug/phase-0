@@ -1,12 +1,12 @@
-<img src="imgs/3.4-exercise-1.png"/>
+<img src="imgs/3.4-exercise-1.png">
 <img src="imgs/3.4-exercise-2.png">
-<img src="/imgs/3.4-exercise-3.png">
-<img src="/imgs/3.4-exercise-4.png">
-<img src="/imgs/3.4-exercise-5.png">
-<img src="/imgs/3.4-exercise-6.png">
-<img src="/imgs/3.4-exercise-7.png">
-<img src="/imgs/3.4-exercise-8.png">
-<img src="/imgs/3.4-exercise-9.png">
+<img src="imgs/3.4-exercise-3.png">
+<img src="imgs/3.4-exercise-4.png">
+<img src="imgs/3.4-exercise-5.png">
+<img src="imgs/3.4-exercise-6.png">
+<img src="imgs/3.4-exercise-7.png">
+<img src="imgs/3.4-exercise-8.png">
+<img src="imgs/3.4-exercise-9.png">
 
 ###How can you use Chrome's DevTools inspector to help you format or position elements?
 DevTools can help you by showing you how adjustments to your CSS code will change the formatting of your page. You can strikethrough elements to see how the page would change without them without completely eliminating them from the code. You can quickly see how elements interact with one another and what each change will produce. Once you're satisfied, then you can add the code into your CSS!
