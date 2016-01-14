@@ -62,6 +62,9 @@ table {
   position: relative;
 }
 
+
+
+
 /*
 What is important to know when linking an external file (like a stylesheet) to an HTML file?
 Make sure you navigate to the appropriate directory and down to the correct folder when linking the actual file using href. Use the relative path to navigate like "../../directory/folder/file-name.css". There are three links that need to be present: type="text/css" rel="stylesheet" href="filename.css".
