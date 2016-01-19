@@ -1,4 +1,4 @@
-#Full name greeting:
+#Full name greeting challenge:
 
 puts "Hello there! Please type your first name:"
 first_name=gets.chomp
@@ -11,7 +11,7 @@ last_name=gets.chomp
 
 puts "Pleased to meet you " + first_name + " " + middle_name + " " + last_name + "!"
 
-#Bigger, better favorite number:
+#Bigger, better favorite number challenge:
 
 puts "Hello! What\'s your favorite number in the whole world?"
 
@@ -20,6 +20,10 @@ better_num=fav_num.to_i + 1
 better_num=better_num.to_s
 
 puts "Okay, but I think " + better_num + " is a bigger, better number, wouldn't you agree? I think that should be your new favorite :)"
+
+#Format address challenge link: https://github.com/taylordaug/phase-0/blob/master/week-4/address/5-format-address/my_solution.rb
+
+#Math methods challenge link: https://github.com/taylordaug/phase-0/blob/master/week-4/math/6-math-methods/my_solution.rb
 
 # Reflection
 =begin
