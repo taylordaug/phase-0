@@ -15,12 +15,10 @@ people = ["Alivia Blount","Alyssa Page","Alyssa Ransbury","Andria Reta","Austin 
 
 def acct_groups(people)
   people.shuffle!
-  groups_of_people = people.each_slice(5).to_a
-  #groups_of_people = Array.new(*) {Array.new(5)}
-  #3 = people.length % x
+  groups_of_people = people.each_slice(4).to_a
   length_array = groups_of_people.length
   groups_of_people.each {|x|
-    if x.length <= 3
+    if x.length < 3
       groups_of_people[0].concat(x)
       groups_of_people.delete_at(-1)
     end
