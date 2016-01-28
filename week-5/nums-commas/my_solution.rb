@@ -58,7 +58,7 @@ def separate_comma(number)
     end
   end
 
-p array = array.join
+array.join
 
 end
 
