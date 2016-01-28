@@ -51,13 +51,13 @@ mode([4,5,5,5,6,6,6])
 =begin
 4. Reflection
 Which data structure did you and your pair decide to implement and why?
-
+We created a new hash with the array values. This was so we could store the number of occurences of certain numbers. The key was the number, and the value translated to the number of occurrences. We iterated over the array twice, once to create the hash with the default value 0, and once to add 1 to the value every time the key occurred.
 
 Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
 
 
 What issues/successes did you run into when translating your pseudocode to code?
-
+We had a difficult time returning the values once we found the highest value (which corresponded to )
 
 What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
 
