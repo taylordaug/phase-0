@@ -1,0 +1,4 @@
+#Homework Cheater
+=begin
+
+=end
