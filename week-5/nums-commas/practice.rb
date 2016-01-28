@@ -1,3 +1,4 @@
+=begin
 def separate_comma(number)
   number = number.to_s
   array = number.split(//)
@@ -17,6 +18,30 @@ new_array = array.join
 p = new_array
 end
 
+if array.length % 3 = = 0
+  array.insert((array.length-3),",")
 
-separate_comma(10000000)
+=end
+
+def separate_comma(number)
+  number = number.to_s
+  array = number.split(//)
+  num_length = array.length
+
+  if num_length < 4
+    return number
+  else
+  counter = -1
+    array.each do |x|
+      x[counter]
+      counter -= 1
+      if counter % 4 == 0
+      array.insert(counter,",")
+      end
+    end
+  end
+
+array = array.join
+
+end
 
