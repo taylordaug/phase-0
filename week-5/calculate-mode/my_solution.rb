@@ -1,8 +1,8 @@
 # Calculate the mode Pairing Challenge
 
-# I worked on this challenge with Marti and Jones.
+# I worked on this challenge with Marti O-H and Jones Melton.
 
-# I spent [] hours on this challenge.
+# I spent 1 hour on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -48,5 +48,18 @@ mode([4,5,5,5,6,6,6])
 
 
 
+=begin
+4. Reflection
+Which data structure did you and your pair decide to implement and why?
 
-# 4. Reflection
+
+Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+
+What issues/successes did you run into when translating your pseudocode to code?
+
+
+What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+
+=end
