@@ -14,7 +14,7 @@ my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, 
   #2. iterate through all letters in words in array
   #3. IF word contains letters, add to new array or keep in current array
   #ELSE delete from array, or don't add to new array
-
+=begin
 def my_array_finding_method(array, letter)
   array.keep_if { |item| item.to_s.include?(letter) }
   return array
@@ -25,27 +25,41 @@ def my_hash_finding_method(hash, age)
   return hash.keys
 end
 
-=begin
 # Identify and describe the Ruby method(s) you implemented.
 # keep_if: deletes every element of the array or hash that the code block evaluates to false
 # include?: returns true if given object is present in array (if any element == object), otherwise return false
 #.keys - returns new array of only the keys of the hash
+=end
 
 # Person 2
-def my_array_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+
+def my_array_modification_method!(array, number)
+    array.map! do |x|
+      if x.is_a? Integer
+        x += number
+      else
+        x
+      end
+    end
+
 end
 
-def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+
+def my_hash_modification_method!(hash, number)
+  hash.flat_map do |x, y|
+    y += number
+    end
+   hash
 end
+
+my_hash_modification_method!(my_family_pets_ages, 3)
 
 # Identify and describe the Ruby method(s) you implemented.
 #
 #
 #
 
-
+=begin
 # Person 3
 def my_array_sorting_method(source)
   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
