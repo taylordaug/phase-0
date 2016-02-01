@@ -1,5 +1,5 @@
 require_relative "my_solution"
-
+=begin
 # PERSON 1: FIND MATCHING DATA
 describe 'PERSON 1: my_array_finding_method' do
   let(:i_want_pets) {["I", "want", 3, "pets", "but", "only", "have", 2 ]}
@@ -26,7 +26,7 @@ describe 'PERSON 1: my_hash_finding_method' do
     expect(my_hash_finding_method(my_family_pets_ages, 0)).to eq ["Annabelle"]
   end
 end
-=begin
+=end
 # PERSON 2: MODIFY EXISTING DATA
 describe 'PERSON 2: my_array_modification_method!' do
   let(:i_want_pets) {["I", "want", 3, "pets", "but", "only", "have", 2 ]}
@@ -54,7 +54,7 @@ describe 'PERSON 2: my_hash_modification_method!' do
   end
 
 end
-
+=begin
 # PERSON 3: SORT DATA
 describe 'PERSON 3: my_array_sorting_method!' do
   let(:i_want_pets) { ["I", "want", 3, "pets", "but", "only", "have", 2 ] }
