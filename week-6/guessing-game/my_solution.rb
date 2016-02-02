@@ -7,9 +7,16 @@
 # Pseudocode
 
 # Input: integer
-# Output:
+# Output: symbol or boolean
 # Steps:
-#
+# define initialize method so that answer is an instance variable to be used in next methods
+# define guess method which takes a number and figures out if that is correct or higher/lower than the answer
+  #make that an instance variable and then IF that number = the answer, return symbol correct, ELSIF that number > answer, return symbol high, ELSE return symbol low
+# define solved? method to return FALSE or TRUE depending on if a correct guess has been made
+  #IF the number guessed back in the guess method is correct, return TRUE
+  #ELSE return false
+
+
 
 # Initial Solution
 =begin
