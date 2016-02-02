@@ -76,7 +76,7 @@ end
 =begin
 # Reflection
 How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
-Objects inherit behaviors (methods) from their classes. When you define a class with instance variables and methods
+Objects inherit behaviors (methods) from their classes. All objects in the same class act alike and follow a certain blueprint of activities. When you define a class with instance variables and methods, you are saying to pass these same behaviors to every instance of the class, and every instance of the class is an object. A real world object shares a state and an action. Instance variables represent the states and methods represent the actions the object will take on.
 
 
 When should you use instance variables? What do they do for you?
