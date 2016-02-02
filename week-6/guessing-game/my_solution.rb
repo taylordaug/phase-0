@@ -7,9 +7,16 @@
 # Pseudocode
 
 # Input: integer
-# Output:
+# Output: symbol or boolean
 # Steps:
-#
+# define initialize method so that answer is an instance variable to be used in next methods
+# define guess method which takes a number and figures out if that is correct or higher/lower than the answer
+  #make that an instance variable and then IF that number = the answer, return symbol correct, ELSIF that number > answer, return symbol high, ELSE return symbol low
+# define solved? method to return FALSE or TRUE depending on if a correct guess has been made
+  #IF the number guessed back in the guess method is correct, return TRUE
+  #ELSE return false
+
+
 
 # Initial Solution
 =begin
@@ -76,7 +83,7 @@ end
 =begin
 # Reflection
 How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
-Objects inherit behaviors (methods) from their classes. When you define a class with instance variables and methods
+Objects inherit behaviors (methods) from their classes. All objects in the same class act alike and follow a certain blueprint of activities. When you define a class with instance variables and methods, you are saying to pass these same behaviors to every instance of the class, and every instance of the class is an object. A real world object shares a state and an action. Instance variables represent the states and methods represent the actions the object will take on.
 
 
 When should you use instance variables? What do they do for you?
