@@ -9,6 +9,16 @@
 # Input: string (my name)
 # Output: string (salutation printed to console)
 # Steps:
+# for NameData class:
+  #define method to initialize variable name to be my name "Taylor"
+  #define method to display my name when called
+#for Greetings class:
+  #define method to initialize variable to take an object that is a new instance of the NameData class (pass information from class to class)
+  #define method that prints out greeting message I want and includes my name from the NameData class
+    #call display method from NameData class on the new instance of the NameData class so that it prints out in the middle of this string
+#when calling method
+  #create new instnace of Greetings class
+  #call the display method on new instance so it prints out message
 
 class NameData
   def initialize
