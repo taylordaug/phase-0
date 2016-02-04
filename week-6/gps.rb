@@ -41,4 +41,18 @@ end
 #p serving_size_calc("cookie", 5)
 #p serving_size_calc("THIS IS AN ERROR", 5)
 
+=begin
 #  Reflection
+What did you learn about making code readable by working on this challenge?
+I learned that variable names often throw off the readability of the code. The number of ingredients wasn't even relative to the calculator, and made it very hard to understand the code. This was a great lesson for me because I often make variable names something random that makes sense to me at the time. Sometimes adding things like counters makes sense when you write code, but then you realize you actually don't need them. The counters in this code really threw me off and were completely unnecessary. Breaking up the code into chunks was helpful in determining the utility of each chunk. This way I could get rid of the excess.
+
+Did you learn any new methods? What did you learn about them?
+Putting a ! in front of a boolean checks that it evaluates to false. I learned that case statements are great when you're looking at one variable and the cases when it changes value. .include? is a boolean that checks if an array/hash contains a specific thing.
+
+What did you learn about accessing data in hashes?
+You access a value in a hash by using hash[key].
+
+What concepts were solidified when working through this challenge?
+Raising an Argument Error is second nature now using ArgumentError.new. Also using booleans to determine the course of the code is starting to become very easy. Like I said, case statements are now more familiar and I'll use them if I have a case where one variable is changing.
+
+=end
