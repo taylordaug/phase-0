@@ -32,3 +32,15 @@ describe CreditCard do
   end
 end
 
+=begin
+Reflection
+What was the most difficult part of this challenge for you and your pair?
+Switching between string, integer, and array methods was very confusing. We started one way and had to keep backpedaling to switch our data structure into a format that we could work with.
+
+What new methods did you find to help you when you refactored?
+
+
+What concepts or learnings were you able to solidify in this challenge?
+This really made me think about which methods go with which classes and data structures.
+
+=end
