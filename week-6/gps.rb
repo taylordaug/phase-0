@@ -18,22 +18,27 @@ serving_size = library[item_to_make]#returns servings in array form - this is ex
 
 remaining_servings = servings_you_want % serving_size
 
-
 # #LOOKS OKAY: looking at how many ingredients are leftover, telling you how many items you can make, and how many ingredients you have left. at the bottom we can add suggested baking items with the remaining ingredients
   case remaining_servings
   when 0
-    return "Calculations complete: Make #{servings_you_want / serving_size} of #{item_to_make}"
+    return "Calculations complete: Make #{servings_you_want / serving_size} of the #{item_to_make}s"
+  when 1
+    return "Calculations complete: Make #{servings_you_want / serving_size}of the#{item_to_make}s, you have one person left unfed. Bake one cookie to serve this person." #leftover people, correspond to how many servings other foods make (1 extra person gets a cookie) OR make more than we need, leftover pieces after you feed everybody - what you can make with remainder. 12 people, make one pie and one cake.
+  when 5
+    return "Calculations complete: Make #{servings_you_want / serving_size} of the#{item_to_make}s, you have 5 people left unfed. Bake a cake to serve them."
+  when 7
+    return "Calculations complete: Make #{servings_you_want / serving_size} of the #{item_to_make}s, you have 7 people left unfed. Bake a pie to serve them."
   else
-    return "Calculations complete: Make #{servings_you_want / serving_size} of #{item_to_make}, you have #{remaining_servings} leftover ingredients. Suggested baking items: TODO: MAKE THIS FEATURE" #leftover people, correspond to how many servings other foods make (1 extra person gets a cookie) OR make more than we need, leftover pieces after you feed everybody - what you can make with remainder. 12 people, make one pie and one cake.
+    return "Calculations complete: Make #{servings_you_want / serving_size} of the #{item_to_make}s. Make #{remaining_servings} cookies to serve the extras."
   end
 end
 
-# p serving_size_calc("pie", 7)
-p serving_size_calc("pie", 8)
+#p serving_size_calc("pie", 15)
+#p serving_size_calc("pie", 8)
 #p serving_size_calc("cake", 5)
 #p serving_size_calc("cake", 7)
 #p serving_size_calc("cookie", 1)
-#p serving_size_calc("cookie", 10)
+#p serving_size_calc("cookie", 5)
 #p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection

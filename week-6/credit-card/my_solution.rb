@@ -47,8 +47,6 @@ class CreditCard
       num.to_i
     end
 
-
-
     if @new_array.inject(:+).to_f % 10.0 == 0.0
       p true
     else
@@ -66,4 +64,15 @@ end
 
 
 
-# Reflection
+=begin
+Reflection
+What was the most difficult part of this challenge for you and your pair?
+Switching between string, integer, and array methods was very confusing. We started one way and had to keep backpedaling to switch our data structure into a format that we could work with. I feel like we were going with methods that were familiar to us, and altering our data to fit what we knew how to do instead of finding methods to work with what we had.
+
+What new methods did you find to help you when you refactored?
+
+
+What concepts or learnings were you able to solidify in this challenge?
+This really made me think about which methods go with which classes and data structures.
+
+=end
