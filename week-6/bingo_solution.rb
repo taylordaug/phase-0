@@ -31,11 +31,9 @@ class BingoBoard
   end
 
   def generate
-  # @letter = ["B", "I", "N", "G", "O"].sample
-  # @number = Random.rand(1..100)
-  # "#{@letter}#{@number}"
-  @letter = "O"
-  @number = 82
+  @letter = ["B", "I", "N", "G", "O"].sample
+  @number = Random.rand(1..100)
+  p "Call: #{@letter}#{@number}"
   end
 
   def call
@@ -47,7 +45,6 @@ class BingoBoard
         if index % 5 == 0 || index == 0
           if x == @number
           @bingo_board[index] = "X"
-          @bingo_board.each_slice(5) {|x| p x}
         end
       end
         }
@@ -57,7 +54,6 @@ class BingoBoard
         if index == 1 || index == 6 || index == 11 || index == 16 || index == 21
           if x == @number
           @bingo_board[index] = "X"
-          @bingo_board.each_slice(5) {|x| p x}
         end
       end
         }
@@ -67,7 +63,6 @@ class BingoBoard
           if index == 2 || index == 7 || index == 12 || index == 17 || index == 22
             if x == @number
               @bingo_board[index] = "X"
-              @bingo_board.each_slice(5) {|x| p x}
             end
           end
         }
@@ -77,27 +72,24 @@ class BingoBoard
           if index == 3 || index == 8 || index == 13 || index == 18 || index == 23
             if x == @number
               @bingo_board[index] = "X"
-              @bingo_board.each_slice(5) {|x| p x}
           end
         end
         }
 
     when "O"
+
        @bingo_board.each_with_index {|x, index|
           if index == 4 || index == 9 || index == 14 || index == 19 || index == 24
             if x == @number
               @bingo_board[index] = "X"
-              @bingo_board.each_slice(5) {|x| p x}
-
             end
           end
         }
     end
+    @bingo_board.each_slice(5) {|x| p x}
   end
 
 end
-
-
 
 
 
@@ -115,7 +107,97 @@ board = [[47, 44, 71, 8, 88],
 new_game = BingoBoard.new(board)
 new_game.generate
 new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+new_game.generate
+new_game.call
+=begin
+#Reflection
+
+How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
 
 
-# #Reflection
+What are the benefits of using a class for this challenge?
+How can you access coordinates in a nested array?
+
+
+What methods did you use to access and modify the array?
+
+
+Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+
+
+How did you determine what should be an instance variable versus a local variable?
+
+
+What do you feel is most improved in your refactored solution?
+
+
+=end
 
