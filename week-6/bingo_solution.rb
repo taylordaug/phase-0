@@ -101,11 +101,9 @@ class BingoBoard
   end
 
   def generate
-  # @letter = ["B", "I", "N", "G", "O"].sample
-  # @number = Random.rand(1..100)
-  # p "Call: #{@letter}#{@number}"
-  @letter = "O"
-  @number = 88
+  @letter = ["B", "I", "N", "G", "O"].sample
+  @number = Random.rand(1..100)
+  p "Call: #{@letter}#{@number}"
   end
 
   def call
