@@ -1,4 +1,33 @@
+function sum(array) {
+  var totalSum = 0
+  for(var counter = 0; counter < array.length; counter ++){
+    totalSum += array[counter];
+  }
+  return(totalSum);
+}
 
+// //  function "mean"
+
+
+function mean(array) {
+  var totalSum = 0;
+  for(var counter = 0; counter < array.length; counter ++)
+  {totalSum += array[counter];
+   }
+  return(totalSum / array.length)
+};
+
+
+// function "median"
+
+
+function median(array) {
+  if (array.length % 2 === 0) {
+    return (array[array.length / 2] + array[(array.length / 2) - 1]).toFixed(2) / 2;
+  } else {
+    return array[Math.floor((array.length.toFixed(1) / 2))];
+  }
+};
 // Add the finished solution here when you receive it.
 // __________________________________________
 // Tests:  Do not alter code below this line.
@@ -55,7 +84,7 @@ assert(
   "6. "
 )
 
-// tests for median
+// // tests for median
 assert(
   (median instanceof Function),
   "median should be a Function.",
