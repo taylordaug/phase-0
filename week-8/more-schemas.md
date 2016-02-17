@@ -4,7 +4,7 @@
 This is a one-to-one relationship because the details table expands on details that are relevant only to one university. Each university has only one date it was founded on, one demographic composition, and one percentage for female/male population. These details are specific to that one university and cannot be applied to any other university. The parent table (university) is the table that has the most useful information that will be referred to in most queries, but if additional information is needed, it can be accessed from the child table. This makes queries more efficient, so they don't have to search through a table with a ton of fields that aren't used most of the time.
 
 ###Grocery List Schema###
-![Alt text](grocery.png)
+![Alt text](imgs/grocery.png)
 
 ###Reflection###
 #####What is a one-to-one database?#####
