@@ -11,9 +11,9 @@
 10. SELECT region_name, state_name FROM states LEFT JOIN regions ON states.region_id = regions.id ORDER BY region_id ASC;
 
 
-###Reflection:###
+###Reflection###
 #####What are databases for?#####
-Databases are a way to organize large amounts of data. Using tablesand columns, data is organized into specific categories so it can be more easily accessed.
+Databases provide a way to organize large amounts of data. Using tables and columns, data is organized into specific categories so it can be more easily accessed.
 
 #####What is a one-to-many relationship?#####
 When fundamentally different things have a relationship, and that relationship can be categorized as follows: A belongs to a B, B has many things of type A. Basically, something belongs to a larger category, that also is the category containing many other items other than that original thing. For the outfit picking schema example, one outfit belonged to one person, but that person would have many other outfits.
@@ -24,7 +24,7 @@ A primary key is unique for each record in the table. There is always only ONE p
 
 
 #####How can you select information out of a SQL database? What are some general guidelines for that?#####
-The general query is: SELECT something FROM table_name; (don't forget one semicolon at the end of the query!). The things you select are generally column names, or attributes of a specific table and you specify what table you want that coming from. There are ways to specify exactly what information you want: you can use WHERE to specify values you want to return, or ORDER BY to order the data in ASC (ascending) or DESC (descending) order when displayed.
+The general query is: SELECT something FROM table_name; (don't forget one semicolon at the end of the query!). The things you select are generally column names, or attributes of a specific table and you specify what table you want that coming from. If you want to select everything in the table, use the *. There are ways to specify exactly what information you want: you can use WHERE to specify values you want to return, or ORDER BY to order the data of a particular column in ASC (ascending) or DESC (descending) order when displayed. To join information between columns use the JOIN command and specify the correct primary key and foreign key to be joined between the two tables. Commands are always uppercase, but things like names of tables or attributes within tables are lowercase (or, how they appear in the actual table).
 
 ###My Outfit Picking Schema###
 ![Alt text](schema.png)
