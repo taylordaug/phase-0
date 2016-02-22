@@ -8,8 +8,9 @@
 
 # steps:
 # IF 5 xs in a row in any formation, return TRUE and print "BINGO!" to the console
-# IF no bingo, return FALSE, don't print anything
+# ELSE don't print anything
 # check for horizonal
+#
 # check for vertical
 # check for diagnoal
 
@@ -114,9 +115,6 @@
 
 # end
 
-
-
-
 # Refactored Solution
 class BingoScorer
   def initialize(array)
@@ -156,7 +154,7 @@ class BingoScorer
         puts "BINGO!"
       end
 
-  #bingovertical
+  # bingovertical
   array_1 = []
   array_2 = []
   array_3 = []
@@ -169,19 +167,16 @@ class BingoScorer
     array_4 << x[3]
     array_5 << x[4]
   end
-   if array_1 == ['x','x','x','x','x'] ||
-       array_2 == ['x','x','x','x','x'] ||
-       array_3 == ['x','x','x','x','x'] ||
-       array_4 == ['x','x','x','x','x'] ||
-       array_5 == ['x','x','x','x','x']
+    bingo = ['x','x','x','x','x']
+   if array_1 == bingo ||
+       array_2 == bingo ||
+       array_3 == bingo ||
+       array_4 == bingo ||
+       array_5 == bingo
       puts "BINGO!"
     end
   end
 end
-
-
-
-
 
 # DRIVER TESTS GO BELOW THIS LINE
 # implement tests for each of the methods here:
