@@ -41,5 +41,6 @@ document.body.appendChild(templ.content.cloneNode(true));
 
 // Reflection
 // What did you learn about the DOM?
+// The DOM is basically how the browser renders the source code that makes up the website.
 // What are some useful methods to use to manipulate the DOM?
-
+// Manipulating elements in the DOM with JavaScript entails calling the specific tag, id, or class that you want to change. You access it with this syntax: document.getElementbyId("id") OR document.getElementsByClassName OR document.getElementsByTagName. You can add the styling elements at the end of those calls with ".style.backgroundColor"
