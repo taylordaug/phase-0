@@ -177,7 +177,10 @@ def to_english(number)
   end
 end
 
-to_english(10)
-
 # Reflection
-
+# What concepts did you review in this challenge?
+# Accessing data in hashes and iterating with .each |key,value| in a hash; case statements.
+# What is still confusing to you about Ruby?
+# Is there a way to condense case statements without creating these hashes?
+# What are you going to study to get more prepared for Phase 1?
+# Using data structures like hashes to store data for certain conditions and then knowing how to properly iterate to get the correct values for each case.
